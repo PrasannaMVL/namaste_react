@@ -1,0 +1,38 @@
+.header {
+    text-align: center;
+}
+
+.product-card {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 210px;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.product-image { 
+    width: 200px;
+    height: 200px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pagination-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pagination {
+    border: 1px solid black;
+    width: 10px;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
